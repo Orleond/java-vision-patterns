@@ -11,7 +11,7 @@ public class AdapterTutorial {
         }
     }
 
-    public void add(PrintInterface printInterface) {
+    public void addPrintInterface(PrintInterface printInterface) {
         printInterfaces.add(printInterface);
     }
 }
