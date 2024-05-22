@@ -10,4 +10,8 @@ public class AdapterTutorial {
             printInterface.consolePrint();
         }
     }
+
+    public void add(PrintInterface printInterface) {
+        printInterfaces.add(printInterface);
+    }
 }
